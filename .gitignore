@@ -20,9 +20,4 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
-<<<<<<< HEAD
-=======
-farm/.idea/workspace.xml
-farm/src/Test/AbstractFactory.java.orig
->>>>>>> master
 *.xml

@@ -16,5 +16,8 @@ public class AbstractFactory {
 
         src.Action.HarvestFactory.AbstractFactory abstractFactory2 = FactoryProducer.getFactory(1);
         Fertilizer fertilizer = abstractFactory2.getFertilizer(1);
+        Fertilizer fertilizer2 = abstractFactory2.getFertilizer(2);
+        System.out.println(fertilizer.getName() + "value : " + fertilizer.getValue());
+        System.out.println(fertilizer2.getName() + "value : " + fertilizer2.getValue());
     }
 }
